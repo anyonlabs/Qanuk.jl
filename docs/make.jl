@@ -39,6 +39,10 @@ makedocs(
     pages = [
         "Home" => "index.md",
         "Getting Started" => "getting_started.md",
+        "Tutorials" => [
+            "Basics"=>"tutorials/basics.md"
+            "Run a circuit" =>"tutorials/run_circuit.md"
+        ],
         "Library" => "library.md",
         "Developing" => "development.md",
     ],
